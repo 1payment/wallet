@@ -1,0 +1,334 @@
+{
+    "Login": {
+        "Title": "Đăng nhập",
+        "PHAddress": "Địa chỉ ví",
+        "PHLocalPasscode": "Mật khẩu",
+        "TitleButton": "Đăng nhập",
+        "InvalidCredentials": "Nhập sai mật khẩu hoặc sai địa chỉ ví",
+        "InvalidLocalPasscode": "Sai định dạng mật khẩu",
+        "InvalidAddress": "Sai định dạng địa chỉ ví ",
+        "Error": {
+            "AccessTouchID": "Vân tay chưa được kích hoạt",
+            "CreateWallet": "Vui lòng đăng kí ví mới"
+        }
+    },
+    "Register": {
+        "Title": "Tạo ví mới",
+        "TitleButton": "Tạo ví",
+        "PHWalletLocalPasscode": "Mật khẩu",
+        "PHConfirmLocalPasscode": "Xác nhận mật khẩu",
+        "policy": "Điều khoản dịch vụ",
+        "ErrorLocalPasscode": "Mật khẩu tối thiểu 6 kí tự",
+        "ErrorNotMatch": "Mật khẩu xác nhận không trùng khớp"
+    },
+    "Restore": {
+        "Title": "Khôi phục ví",
+        "BackUpCode": "Mã Backup",
+        "Privatekey": "Private key",
+        "ChooserFile": "Chọn file",
+        "LocalPasscode": "Mật khẩu",
+        "ComfirmLocalPasscode": "Xác nhận mật khẩu",
+        "ErrorLocalPasscode": "Mật khẩu tối thiểu 6 kí tự",
+        "ErrorNotMatch": "Mật khẩu xác nhận không trùng khớp",
+        "TitleButton": "Tiếp tục",
+        "Error": "Lỗi",
+        "InvalidRestoreCode": "Sai mã khôi phục, vui lòng thử lại",
+        "Ok": "Đồng ý",
+        "InvalidPK": "Sai định dạng private key",
+        "Warning": "Cảnh báo",
+        "ContentWarning": "Vui lòng chọn đúng file sao lưu",
+        "AlertInvalidPK": "Sai private key, vui lòng thử lại!"
+    },
+    "Dashboard": {
+        "Title": "Trang chủ",
+        "Day": "Ngày",
+        "Week": "Tuần",
+        "Month": "Tháng",
+        "All": "Tất cả",
+        "YourBalance": "Số dư",
+        "CheckBackup": "Ví của bạn chưa được sao lưu",
+        "ButtonBackup": "Sao lưu",
+        "total_value": "Số dư",
+        "segment": {
+            "send": "Gửi",
+            "receve": "Nhận"
+        }
+    },
+    "Send": {
+        "Title": "Gửi",
+        "SendForm": {
+            "SelectToken": "Chọn token",
+            "To": "Địa chỉ nhận",
+            "TitleButton": "Gửi"
+        },
+        "ConfirmSend": {
+            "Title": "Xác nhận gửi",
+            "Content": "Nhập mật khẩu ví để tiếp tục",
+            "Placeholder": "Mật khẩu ví",
+            "TitleButtonCancel": "Hủy"
+        },
+        "AlerError": {
+            "Error": "Lỗi",
+            "Content": "Mật khẩu sai",
+            "NotEnoughNTY": "Số dư không đủ cho giao dịch này",
+            "NotEnoughToken": "Bạn không đủ token cho giao dịch này",
+            "TransactionFail": "Giao dịch thất bại"
+        },
+        "SendSuccess": {
+            "Title": "Giao dịch thành công"
+        },
+        "Ok": "Đồng ý",
+        "ValidAmount": "Vui lòng nhập số coin",
+        "ValidAddress": "Vui lòng nhập đúng định dạng địa chỉ ví",
+        "Copy": "Sao chép"
+    },
+    "Request": {
+        "Title": "Nhận",
+        "TitleCopy": "Nhấn vào ảnh dưới để sao chép địa chỉ ví hoặc chia sẻ địa chỉ này qua email hoặc văn bản",
+        "Share": "Chia sẻ",
+        "Toast": "Đã sao chép địa chỉ ví"
+    },
+    "Unlogin": {
+        "Login": "Đăng nhập",
+        "CreateWallet": "Tạo ví mới",
+        "Restore": "Khôi phục ví",
+        "AutoLogin": "Đăng nhập ..."
+    },
+    "Drawer": {
+        "Redeem": "Nhận thưởng",
+        "Privatekey": "Private key",
+        "Addtoken": "Thêm token",
+        "History": "Lịch sử",
+        "Settings": "Cài đặt",
+        "About": "Về chúng tôi",
+        "Logout": "Đăng xuất",
+        "Version": "Phiên bản"
+    },
+    "Redeem": {
+        "Title": "Nhận thưởng",
+        "OpenCam": "Đang mở máy quét...",
+        "InfoQR": {
+            "Title": "Thông tin mã QR",
+            "Content": "mã QR",
+            "TitleButton": "Nhận thưởng"
+        },
+        "Congratulation": {
+            "Title": "Chúc mừng",
+            "Content": "Bạn đã nhận được",
+            "TitleButton": "Đồng ý"
+        },
+        "Error": {
+            "Title": "Lỗi",
+            "Content": {
+                "Used": "Xin lỗi, QR này đã được sử dụng",
+                "expired": "Xin lỗi, QR này đã quá hạn",
+                "NotFound": "Không tìm thấy mã QR nào"
+            },
+            "TitleButton": "Quét lại"
+        }
+    },
+    "PrivateKey": {
+        "Title": "Private key",
+        "InitForm": {
+            "Content": "Nhấn vào nút để lấy private key",
+            "TitleButton": "Tiếp tục"
+        },
+        "GetSuccess": {
+            "TitleButton": "Sao chép private key",
+            "TitleCopied": "Đã sao chép"
+        },
+        "DialogConfirm": {
+            "Title": "Xác nhận để lấy private key",
+            "Content": "Vui lòng nhập mật khẩu ví để tiếp tục",
+            "Placeholder": "Mật khẩu ví",
+            "TitleButtonGet": "Đồng ý",
+            "TitleButtonCancel": "Hủy"
+        },
+        "Aler": {
+            "Title": "Lấy private key thất bại",
+            "Content": "Sai mật khẩu ví",
+            "TitleButtonCancel": "Hủy",
+            "TitleButtonTry": "Thử lại"
+        },
+        "Toast": "Đã sao chép vào bộ nhớ tạm"
+    },
+    "AddToken": {
+        "Title": "Thêm token",
+        "FormAdd": {
+            "PlaceholderToken": "Nhập địa chỉ của contract token",
+            "PlaceholderSymbol": "Tên token",
+            "TitleButton": "Thêm"
+        },
+        "AlerError": {
+            "Title": "Lỗi",
+            "Content": "Token đã tồn tại",
+            "TitleButton": "Đồng ý"
+        },
+        "AlerSuccess": {
+            "Title": "Thành công",
+            "Content": "Thêm token thành công",
+            "TitleButton": "Đồng ý"
+        },
+        "ValidToken": "Địa chỉ token không đúng"
+    },
+    "History": {
+        "Title": "Lịch sử",
+        "Loading": "Đang lấy dữ liệu ...",
+        "NoTransaction": "Bạn chưa có giao dịch nào"
+    },
+    "DetailHistory": {
+        "Title": "Chi tiết giao dịch",
+        "Txhash": "Txhash",
+        "From": "Chuyển từ",
+        "To": "Chuyển tới",
+        "Amount": "Số tiền giao dịch",
+        "Date": "Thời gian giao dịch",
+        "Status": "Trạng thái",
+        "TitleButton": "Xem trên EXPLORER"
+    },
+    "Settings": {
+        "Title": "Cài đặt",
+        "Backup": "Sao lưu",
+        "Languages": "Ngôn ngữ",
+        "ChangePIN": "Đổi mã PIN",
+        "TouchID": "Sử dụng vân tay",
+        "Toast": "Chức năng đang được phát triển",
+        "EnableTouchID": "Đăng ký vân tay",
+        "Success": "Đăng ký vân tay thành công"
+    },
+    "Backup": {
+        "Title": "Sao lưu",
+        "InitForm": {
+            "Content": "Nhấn vào nút để sao lưu ví",
+            "TitleButton": "Sao lưu"
+        },
+        "GetSuccess": {
+            "Title": "Mã sao lưu",
+            "TitleButton": "Sao chép mã sao lưu",
+            "TitleCopied": "Đã sao chép"
+        },
+        "DialogConfirm": {
+            "Title": "Xác nhận sao lưu",
+            "Content": "Vui lòng nhập mật khẩu ví để tiếp tục",
+            "Placeholder": "Mật khẩu ví",
+            "TitleButtonGet": "Sao lưu",
+            "TitleButtonCancel": "Hủy"
+        },
+        "Alert": {
+            "Title": "Lấy mã sao lưu thất bại",
+            "TitleButtonCancel": "Hủy",
+            "TitleButtonTry": "Thử lại"
+        },
+        "ToastSaveFile": "Đã lưu file sao lưu!",
+        "IOScancel": "Đã hủy lưu file sao lưu",
+        "Toast": "Đã sao chép vào bộ nhớ tạm"
+    },
+    "Languages": {
+        "Title": "Ngôn ngữ"
+    },
+    "About": {
+        "Title": "Về chúng tôi",
+        "Content": "Nexty là một hệ sinh thái công nghệ tài chính giúp các công ty khởi nghiệp công nghệ và thương mại điện tử gây quỹ từ cộng đồng"
+    },
+    "QRScan": {
+        "Title": "Quét mã QR"
+    },
+    "ConfirmLogout": {
+        "Title": "Xác nhận",
+        "Content": "Bạn có muốn đăng xuất?",
+        "ButtonAgree": "Đồng ý",
+        "ButtonCancel": "Hủy",
+        "exitapp": "Bạn có muốn thoát ứng dụng?"
+    },
+    "ChangePIN": {
+        "Title": "Đổi mật khẩu ví",
+        "PlaceholderOld": "Mật khẩu ví cũ",
+        "ValidOldPasscode": "Sai định dạng mật khẩu ví",
+        "PlaceholderNewPasscode": "Mật khẩu ví mới",
+        "PlaceholderConfirmNew": "Xác nhận mật khẩu ví mới",
+        "TitleButton": "Tiếp tục",
+        "Success": "Thay đổi mật khẩu thành công",
+        "OldPasscodeCredentials": "Mật khẩu cũ không đúng"
+    },
+    "TouchID": {
+        "Error": {
+            "Title": "Lỗi",
+            "Content": "Thiết bị không hỗ trợ bảo mật vân tay"
+        },
+        "Send": "Sử dụng vân tay để gửi",
+        "Login": "Sử dụng vân tay để đăng nhập",
+        "Options": {
+            "sensorDescription": "Cảm biến vân tay",
+            "sensorErrorDescription": "Thất bại",
+            "cancelText": "Hủy",
+            "reason": "Quét vân tay vào cảm biến"
+        }
+    },
+    "Token": {
+        "Title": "Danh sách token",
+        "AlertDelete": {
+            "Title": "Xác nhận",
+            "Content": "Bạn có muốn xóa token này?",
+            "ButtonAgree": "Đồng ý",
+            "ButtonCancel": "Hủy"
+        },
+        "TitleButton": "Xóa"
+    },
+    "AlertTouchID": {
+        "Title": "Sử dụng vân tay",
+        "Content": "Sử dụng vân tay để truy cập nhanh hơn",
+        "BtnCancel": "Để sau",
+        "BtnSetting": "Bật vân tay"
+    },
+    "LOGIN_TITLE": "Đăng nhập",
+    "Add_new": {
+        "Title": "Thêm ví mới",
+        "BtnCreate": {
+            "Title": "Tạo mới",
+            "content": "Tạo ví mới"
+        },
+        "BtnChangeNetwork": {
+            "Title": "Thay đổi network",
+            "content": "Thêm ví đã tồn tại trên một network khác"
+        },
+        "BtnImport": {
+            "Title": "Từ mã khôi phục",
+            "content": "Thêm ví mới từ mã backup, private key"
+        }
+    },
+    "SelectNetwork": {
+        "Title": "Chọn network"
+    },
+    "NameWallet": {
+        "Title1": "Tên ví",
+        "Title2": "Chọn ví",
+        "titleButton": "Đồng ý",
+        "AlertConfirm": {
+            "title": "Xác nhận",
+            "content": "Nhập mật khẩu để xác nhận",
+            "placeholderInput": "Mật khẩu",
+            "cancel": "Hủy",
+            "ok": "Ok",
+            "walletNameExist": "Tên ví đã tồn tại",
+            "walletNameError": "Tên ví tối thiểu 1 kí tự"
+        }
+    },
+    "ManageWallet": {
+        "Title": "Quản lí ví",
+        "AlertConfirm": {
+            "title": "Xác nhận xóa ví",
+            "content": "Nhập mật khẩu để tiếp tục",
+            "placeholderInput": "Mật khẩu",
+            "cancel": "Hủy",
+            "ok": "Ok"
+        },
+        "AlertSuccess": {
+            "title": "Thành công",
+            "content": "Bạn đã xóa ví thành công"
+        },
+        "AlertError": {
+            "title": "Lỗi",
+            "content": "Cần ít nhất 1 ví trên ứng dụng"
+        }
+    }
+}

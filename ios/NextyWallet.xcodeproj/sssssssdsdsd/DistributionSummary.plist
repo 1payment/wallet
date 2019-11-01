@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Nexty Wallet.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>794D1B3D8741DDF1125ABE0FE9C77DEABE4EAE2F</string>
+				<key>dateExpires</key>
+				<string>6/11/19</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>HH26QMLFDN.io.nexty.wallettt</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>HH26QMLFDN</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>Nexty Wallet.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>c49d1709-6e48-4575-97b6-b098e7ca9326</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: io.nexty.wallettt</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>HH26QMLFDN</string>
+				<key>name</key>
+				<string>Tran Dang</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

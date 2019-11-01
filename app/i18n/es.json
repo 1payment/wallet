@@ -1,0 +1,334 @@
+    {
+        "Login": {
+            "Title": "Login",
+            "PHAddress": "Dirección de Wallet",
+            "PHLocalPasscode": "Contraseña",
+            "TitleButton": "Login",
+            "InvalidCredentials": "Credenciales inválidas",
+            "InvalidLocalPasscode": "Por favor, introduzca una contraseña válida",
+            "InvalidAddress": "Por favor, introduzca una dirección válida",
+            "Error": {
+                "AccessTouchID": "Por favor accede a la ID táctil en la configuración",
+                "CreateWallet": "Por favor registre nueva billetera"
+            }
+        },
+        "Register": {
+            "Title": "Crear wallet",
+            "TitleButton": "Crear wallet",
+            "PHWalletLocalPasscode": "Contraseña de la wallet",
+            "PHConfirmLocalPasscode": "Confirme la contraseña de la wallet",
+            "policy": "Al crear una nueva Wallet, usted está de acuerdo con el Término de Servicio",
+            "ErrorLocalPasscode": "La contraseña necesita al menos 6 caracteres",
+            "ErrorNotMatch": "Contraseña no coincide"
+        },
+        "Restore": {
+            "Title": "Restaurar wallet",
+            "BackUpCode": "Código de copia de seguridad",
+            "Privatekey": "Private key",
+            "ChooserFile": "Elegir archivo",
+            "LocalPasscode": "Contraseña",
+            "ComfirmLocalPasscode": "Confirmar contraseña",
+            "ErrorLocalPasscode": "La contraseña necesita al menos 6 caracteres",
+            "ErrorNotMatch": "Contraseña de la wallet no coincid",
+            "TitleButton": "Continúe",
+            "Error": "Error",
+            "InvalidRestoreCode": "Código de restauración no válida, por favor, inténtelo de nuevo.",
+            "Ok": "OK",
+            "InvalidPK": "Por favor, introduzca una clave privada válida",
+            "Warning": "Aviso",
+            "ContentWarning": "Por favor, seleccione un archivo de copia de seguridad válida",
+            "AlertInvalidPK": "Clave privada no válida, por favor inténtelo de nuevo!"
+        },
+        "Dashboard": {
+            "Title": "Panel",
+            "Day": "Día",
+            "Week": "Semana",
+            "Month": "Mes",
+            "All": "Tudo",
+            "YourBalance": "Saldo",
+            "CheckBackup": "Wallet todavía no ha hecho la copia de seguridad",
+            "ButtonBackup": "Copia de seguridad",
+            "total_value": "Valor total",
+            "segment": {
+                "send": "Enviar",
+                "receve": "Receber"
+            }
+        },
+        "Send": {
+            "Title": "Enviar",
+            "SendForm": {
+                "SelectToken": "Seleccionar Token",
+                "To": "Para",
+                "TitleButton": "Enviar"
+            },
+            "ConfirmSend": {
+                "Title": "Confirmar envío",
+                "Content": "Escriba su contraseña para procesar",
+                "Placeholder": "Contraseña",
+                "TitleButtonCancel": "Cancelar"
+            },
+            "AlerError": {
+                "Error": "Error",
+                "Content": "Contraseña invalida",
+                "NotEnoughNTY": "Usted no tiene suficiente cantidad para esta transacción",
+                "NotEnoughToken": "No tiene suficiente token para esta transacción",
+                "TransactionFail": "Transacción fallida"
+            },
+            "SendSuccess": {
+                "Title": "Enviado con éxito"
+            },
+            "Ok": "OK",
+            "ValidAmount": "Por favor, introduzca un valor válido",
+            "ValidAddress": "Dirección no válida",
+            "Copy": "Copiar"
+        },
+        "Request": {
+            "Title": "Recibir",
+            "TitleCopy": "Toque la siguiente imagen para copiar esta dirección de la cartera o compartirla por correo electrónico o texto",
+            "Share": "Comparta",
+            "Toast": "Copiado al portapapeles"
+        },
+        "Unlogin": {
+            "Login": "Login",
+            "CreateWallet": "Crear Wallet",
+            "Restore": "Restaurar Wallet",
+            "AutoLogin": "Login automático..."
+        },
+        "Drawer": {
+            "Redeem": "Rescatar",
+            "Privatekey": "Clave privada",
+            "Addtoken": "Agregar token",
+            "History": "Historia",
+            "Settings": "Configuración",
+            "About": "Sobre",
+            "Logout": "Salir",
+            "Version": "Versión"
+        },
+        "Redeem": {
+            "Title": "Regar",
+            "OpenCam": "Abrir la cámara...",
+            "InfoQR": {
+                "Title": "Info QR code",
+                "Content": "QR code",
+                "TitleButton": "Rescate"
+            },
+            "Congratulation": {
+                "Title": "Enhorabuena",
+                "Content": "Usted recibió",
+                "TitleButton": "OK"
+            },
+            "Error": {
+                "Title": "Error",
+                "Content": {
+                    "Used": "Lo sentimos, este QR Code se utilizó",
+                    "expired": "Lo sentimos, el QR Code ha caducado",
+                    "NotFound": "Código QR no entumado"
+                },
+                "TitleButton": "Realizar nueva lectura"
+            }
+        },
+        "PrivateKey": {
+            "Title": "Clave privada",
+            "InitForm": {
+                "Content": "Haga clic en el botón de abajo para obtener la clave privada",
+                "TitleButton": "Continuar"
+            },
+            "GetSuccess": {
+                "TitleButton": "Copiar clave privada",
+                "TitleCopied": "Copiado"
+            },
+            "DialogConfirm": {
+                "Title": "Recuperar su clave privada",
+                "Content": "Escriba su contraseña para procesar",
+                "Placeholder": "Contraseña",
+                "TitleButtonGet": "Obtener",
+                "TitleButtonCancel": "Cancelar"
+            },
+            "Aler": {
+                "Title": "Error en la clave privada",
+                "Content": "Contraseña no válida",
+                "TitleButtonCancel": "Cancelar",
+                "TitleButtonTry": "Inténtelo de nuevo"
+            },
+            "Toast": "Copiado al área de transferencia"
+        },
+        "AddToken": {
+            "Title": "Agregar token",
+            "FormAdd": {
+                "PlaceholderToken": "Escriba la dirección del contrato del token",
+                "PlaceholderSymbol": "Símbolo de token",
+                "TitleButton": "Agregar token"
+            },
+            "AlerError": {
+                "Title": "Error",
+                "Content": "Del token ya existía",
+                "TitleButton": "OK"
+            },
+            "AlerSuccess": {
+                "Title": "Con éxito",
+                "Content": "Token agregado con éxito",
+                "TitleButton": "OK"
+            },
+            "ValidToken": "La dirección del símbolo no es válida"
+        },
+        "History": {
+            "Title": "Historia",
+            "Loading": "Por favor, espere...",
+            "NoTransaction": "Sin historia de transacciones"
+        },
+        "DetailHistory": {
+            "Title": "Detalles de la transacción",
+            "Txhash": "Hash de Transacción",
+            "From": "De",
+            "To": "Para",
+            "Amount": "Valor",
+            "Date": "Fecha",
+            "Status": "Estado",
+            "TitleButton": "EXPLORER"
+        },
+        "Settings": {
+            "Title": "Configuración",
+            "Backup": "Copia de seguridad",
+            "Languages": "Idiomas",
+            "ChangePIN": "Cambiar PIN",
+            "TouchID": "Usar Touch ID como PIN",
+            "Toast": " Esta función estará disponible en breve ",
+            "EnableTouchID": "Confirmar",
+            "Success": "ID de toque ativado com sucesso"
+        },
+        "Backup": {
+            "Title": " Copia de seguridad ",
+            "InitForm": {
+                "Content": " Haga clic en el botón de abajo para realizar la copia de seguridad de la wallet ",
+                "TitleButton": " Copia de seguridad "
+            },
+            "GetSuccess": {
+                "Title": " Código de copia de seguridad ",
+                "TitleButton": " Copiar código de copia de seguridad ",
+                "TitleCopied": " Copiado "
+            },
+            "DialogConfirm": {
+                "Title": "Confirmar copia de seguridad ",
+                "Content": "Escriba su contraseña para procesa",
+                "Placeholder": "Contraseña",
+                "TitleButtonGet": "Copia de seguridad ",
+                "TitleButtonCancel": "Cancelar "
+            },
+            "Alert": {
+                "Title": "Error al obtener código de copia de seguridad ",
+                "TitleButtonCancel": "Cancela ",
+                "TitleButtonTry": "Inténtelo de nuevo "
+            },
+            "ToastSaveFile": "Archivo de copia de seguridad salvo con éxito!",
+            "IOScancel": "Archivo guardado se ha cancelado ",
+            "Toast": "Copiado al portapapeles "
+        },
+        "Languages": {
+            "Title": "Idiomas "
+        },
+        "About": {
+            "Title": "Sobre ",
+            "Content": "Nexty es un ecosistema de Fintech que ayuda al comercio electrónico y las startups de tecnología a levantar fondos a través de la comunidad "
+        },
+        "QRScan": {
+            "Title": "QR scan"
+        },
+        "ConfirmLogout": {
+            "Title": "Confirmar",
+            "Content": "Quieres salir?",
+            "ButtonAgree": "CONCORDO ",
+            "ButtonCancel": "NO ACEPTAR",
+            "exitapp": "Realmente desea salir?"
+        },
+        "ChangePIN": {
+            "Title": "Cambiar contraseña de la cartera",
+            "PlaceholderOld": "Contraseña antigua",
+            "ValidOldPasscode": "Contraseña antigua no válida",
+            "PlaceholderNewPasscode": "Nueva contraseña",
+            "PlaceholderConfirmNew": "Confirme la nueva contraseña",
+            "TitleButton": "Continue",
+            "Success": "Cambiar contraseña con éxito",
+            "OldPasscodeCredentials": "Contraseña local vieja incorrecta"
+        },
+        "TouchID": {
+            "Error": {
+                "Title": "Error en el identificador de toque",
+                "Content": "El dispositivo no admite el identificador de toque"
+            },
+            "Send": "Enviar con acceso al identificador de toque",
+            "Login": "Login con acceso al identificador de toque",
+            "Options": {
+                "sensorDescription": "Sensor tactil",
+                "sensorErrorDescription": "Ha fallado",
+                "cancelText": "Cancela",
+                "reason": "Escanear Touch ID para procesar"
+            }
+        },
+        "Token": {
+            "Title": "Token de lista",
+            "AlertDelete": {
+                "Title": "Confirmar",
+                "Content": "Quieres eliminar token?",
+                "ButtonAgree": "CONCORDO",
+                "ButtonCancel": "NO ACEPTAR"
+            },
+            "TitleButton": "Eliminar"
+        },
+        "AlertTouchID": {
+            "Title": "Touch ID",
+            "Content": "Use su Touch ID para un acceso más rápido y fácil a Wallet",
+            "BtnCancel": "Ahora no",
+            "BtnSetting": "Usar Touch ID"
+        },
+        "LOGIN_TITLE": "Login",
+        "Add_new": {
+            "Title": "Añadir nueva billetera",
+            "BtnCreate": {
+                "Title": "Crear",
+                "content": "Crear una nueva billetera"
+            },
+            "BtnChangeNetwork": {
+                "Title": "Cambiar red",
+                "content": "Selecciona cartera existente pero cambia de red."
+            },
+            "BtnImport": {
+                "Title": "Importar",
+                "content": "Importar billetera desde código de restauración, clave privada ..."
+            }
+        },
+        "SelectNetwork": {
+            "Title": "Seleccione la red"
+        },
+        "NameWallet": {
+            "Title1": "Nombre billetera",
+            "Title2": "Seleccione billetera",
+            "titleButton": "Enviar",
+            "AlertConfirm": {
+                "title": "Confirmar",
+                "content": "Escriba su contraseña para procesa",
+                "placeholderInput": "Contraseña",
+                "cancel": "Cancel",
+                "ok": "Ok",
+                "walletNameExist": "Name wallet has already existed",
+                "walletNameError": "Name wallet needs at least 1 characters"
+            }
+        },
+        "ManageWallet": {
+            "Title": "Manage wallet",
+            "AlertConfirm": {
+                "title": "Confirm remove wallet",
+                "content": "Escriba su contraseña para procesa",
+                "placeholderInput": "Contraseña",
+                "cancel": "Cancelar",
+                "ok": "Ok"
+            },
+            "AlertSuccess": {
+                "title": "Éxito",
+                "content": "Eliminar el éxito de la cartera"
+            },
+            "AlertError": {
+                "title": "Error",
+                "content": "Necesitas mínimo 1 billetera"
+            }
+        }
+    }

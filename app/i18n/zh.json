@@ -1,0 +1,334 @@
+{
+    "Login": {
+        "Title": "登录以继续",
+        "PHAddress": "钱包地址",
+        "PHLocalPasscode": "钱包本地密码",
+        "TitleButton": "登录",
+        "InvalidCredentials": "登录信息失效",
+        "InvalidLocalPasscode": "请输入有效的本地密码",
+        "InvalidAddress": "请输入有效地址",
+        "Error": {
+            "AccessTouchID": "请在设置中访问触摸ID",
+            "CreateWallet": "请注册新钱包"
+        }
+    },
+    "Register": {
+        "Title": "创建钱包",
+        "TitleButton": "创建钱包",
+        "PHWalletLocalPasscode": "钱包本地密码",
+        "PHConfirmLocalPasscode": "确认钱包本地密码",
+        "policy": "通过创建新钱包，即表示您同意所服务条款",
+        "ErrorLocalPasscode": "钱包本地密码至少要有6个字符",
+        "ErrorNotMatch": "钱包本地密码不正确"
+    },
+    "Restore": {
+        "Title": "恢复钱包",
+        "BackUpCode": "备份代码",
+        "Privatekey": "私钥",
+        "ChooserFile": "选择文件",
+        "LocalPasscode": "本地密码",
+        "ComfirmLocalPasscode": "确认本地密码",
+        "ErrorLocalPasscode": "钱包本地密码至少要有6个字符",
+        "ErrorNotMatch": "钱包本地密码不正确",
+        "TitleButton": "继续访问",
+        "Error": "错误",
+        "InvalidRestoreCode": "恢复代码无效，请重试",
+        "Ok": "OK",
+        "InvalidPK": "请输入有效的私钥",
+        "Warning": "警报",
+        "ContentWarning": "请选择有效的备份文件",
+        "AlertInvalidPK": "私钥无效，请重试"
+    },
+    "Dashboard": {
+        "Title": "仪表板",
+        "Day": "天",
+        "Week": "周",
+        "Month": "月",
+        "All": "所有",
+        "YourBalance": "余额",
+        "CheckBackup": "钱包尚未备份",
+        "ButtonBackup": "备份",
+        "total_value": "总价值",
+        "segment": {
+            "send": "提交",
+            "receve": "接收"
+        }
+    },
+    "Send": {
+        "Title": "提交",
+        "SendForm": {
+            "SelectToken": "选择代币",
+            "To": "到",
+            "TitleButton": "提交"
+        },
+        "ConfirmSend": {
+            "Title": "确认发出",
+            "Content": "输入您的本地密码",
+            "Placeholder": "钱包当地密码",
+            "TitleButtonCancel": "取消"
+        },
+        "AlerError": {
+            "Error": "错误",
+            "Content": "本地密码无效",
+            "NotEnoughNTY": "您没有足够量进行此笔交易",
+            "NotEnoughToken": "您没有足够代币进行此笔交易",
+            "TransactionFail": "交易失败"
+        },
+        "SendSuccess": {
+            "Title": "发送成功"
+        },
+        "Ok": "OK",
+        "ValidAmount": "请输入有效数额",
+        "ValidAddress": "地址无效",
+        "Copy": "复制"
+    },
+    "Request": {
+        "Title": "申请",
+        "TitleCopy": "点击以下图片复制或分享钱包地址或通过电子邮件或文本",
+        "Share": "共享",
+        "Toast": "复制到剪贴板"
+    },
+    "Unlogin": {
+        "Login": "登录",
+        "CreateWallet": "创建钱包",
+        "Restore": "恢复钱包",
+        "AutoLogin": "自动登录 ..."
+    },
+    "Drawer": {
+        "Redeem": "赎回",
+        "Privatekey": "私钥",
+        "Addtoken": "添加代币",
+        "History": "记录",
+        "Settings": "设定",
+        "About": "关于",
+        "Logout": "退出",
+        "Version": "版"
+    },
+    "Redeem": {
+        "Title": "赎回",
+        "OpenCam": "开放式摄像头...",
+        "InfoQR": {
+            "Title": "信息QR代码",
+            "Content": "QR 码",
+            "TitleButton": "赎回"
+        },
+        "Congratulation": {
+            "Title": "祝贺",
+            "Content": "你收到了",
+            "TitleButton": "OK"
+        },
+        "Error": {
+            "Title": "错误",
+            "Content": {
+                "Used": "对不起，此QR码已被使用",
+                "expired": "对不起，那么QR码已经过期了",
+                "NotFound": "找不到QR码"
+            },
+            "TitleButton": "重新扫描"
+        }
+    },
+    "PrivateKey": {
+        "Title": "私钥",
+        "InitForm": {
+            "Content": "单击下面的按钮获取私钥",
+            "TitleButton": "继续访问"
+        },
+        "GetSuccess": {
+            "TitleButton": "复制私钥",
+            "TitleCopied": "已复制"
+        },
+        "DialogConfirm": {
+            "Title": "找回您的私钥",
+            "Content": "输入您的本地密码",
+            "Placeholder": "钱包当地密码",
+            "TitleButtonGet": "获取",
+            "TitleButtonCancel": "取消"
+        },
+        "Aler": {
+            "Title": "获取私钥失败",
+            "Content": "本地密码无效",
+            "TitleButtonCancel": "取消",
+            "TitleButtonTry": "重试"
+        },
+        "Toast": "复制到剪贴板"
+    },
+    "AddToken": {
+        "Title": "添加代币",
+        "FormAdd": {
+            "PlaceholderToken": "输入代币合同地址",
+            "PlaceholderSymbol": "代币符号",
+            "TitleButton": "添加代币"
+        },
+        "AlerError": {
+            "Title": "错误",
+            "Content": "令牌已经存在",
+            "TitleButton": "OK"
+        },
+        "AlerSuccess": {
+            "Title": "成功",
+            "Content": "代币添加成功",
+            "TitleButton": "OK"
+        },
+        "ValidToken": "无效代币地址"
+    },
+    "History": {
+        "Title": "记录",
+        "Loading": "请等一下 ...",
+        "NoTransaction": "没有交易记录"
+    },
+    "DetailHistory": {
+        "Title": "交易明细",
+        "Txhash": "Txhash",
+        "From": "来自",
+        "To": "至",
+        "Amount": "总额",
+        "Date": "日期",
+        "Status": "状态",
+        "TitleButton": "探索"
+    },
+    "Settings": {
+        "Title": "设定",
+        "Backup": "备份",
+        "Languages": "语言",
+        "ChangePIN": "修改个人密码",
+        "TouchID": "使用Touch ID 作为个人密码",
+        "Toast": "此功能即将推出",
+        "EnableTouchID": "確認",
+        "Success": "已成功啟用Touch ID"
+    },
+    "Backup": {
+        "Title": "备份",
+        "InitForm": {
+            "Content": "单击下面的按钮备份钱包",
+            "TitleButton": "备份"
+        },
+        "GetSuccess": {
+            "Title": "备份代码",
+            "TitleButton": "复制备份代码",
+            "TitleCopied": "已复制"
+        },
+        "DialogConfirm": {
+            "Title": "确认备份",
+            "Content": "输入您的本地密码",
+            "Placeholder": "钱包当地密码",
+            "TitleButtonGet": "备份",
+            "TitleButtonCancel": "取消"
+        },
+        "Alert": {
+            "Title": "获取代码备份失败",
+            "TitleButtonCancel": "取消",
+            "TitleButtonTry": "重试"
+        },
+        "ToastSaveFile": "备份文件保存成功",
+        "IOScancel": "保存文件已取消",
+        "Toast": "复制到剪贴板"
+    },
+    "Languages": {
+        "Title": "语言"
+    },
+    "About": {
+        "Title": "关于",
+        "Content": "Nexty 是一个帮助电子商务和科技创业公司从社区筹集资金的金融科技生态系统。"
+    },
+    "QRScan": {
+        "Title": "QR扫描"
+    },
+    "ConfirmLogout": {
+        "Title": "確認",
+        "Content": "您是否要退出？",
+        "ButtonAgree": "同意",
+        "ButtonCancel": "拒绝",
+        "exitapp": "你确定要退出吗？"
+    },
+    "ChangePIN": {
+        "Title": "修改钱包本地密码",
+        "PlaceholderOld": "旧钱包本地密码",
+        "ValidOldPasscode": "无效的旧钱包本地密码",
+        "PlaceholderNewPasscode": "新钱包本地密码",
+        "PlaceholderConfirmNew": "确认新钱包本地密码",
+        "TitleButton": "Continue",
+        "Success": "成功更改密码",
+        "OldPasscodeCredentials": "旧的本地密码不正确"
+    },
+    "TouchID": {
+        "Error": {
+            "Title": "Touch ID 错误",
+            "Content": "设备不支持Touch ID”"
+        },
+        "Send": "使用Touch ID访问发送",
+        "Login": "使用Touch ID访问登录",
+        "Options": {
+            "sensorDescription": "触摸传感器",
+            "sensorErrorDescription": "失败",
+            "cancelText": "取消",
+            "reason": "扫描触摸ID进行处理"
+        }
+    },
+    "Token": {
+        "Title": "名單代币",
+        "AlertDelete": {
+            "Title": "確認",
+            "Content": "您是否要删除代币",
+            "ButtonAgree": "同意",
+            "ButtonCancel": "拒绝"
+        },
+        "TitleButton": "删除"
+    },
+    "AlertTouchID": {
+        "Title": "Touch ID",
+        "Content": "使用您的 Touch ID 可以更快、更轻松地访问电子钱包。",
+        "BtnCancel": "不是现在",
+        "BtnSetting": "使用 Touch ID"
+    },
+    "LOGIN_TITLE": "登录",
+    "Add_new": {
+        "Title": "添加新钱包",
+        "BtnCreate": {
+            "Title": "创建",
+            "content": "创建一个新钱包"
+        },
+        "BtnChangeNetwork": {
+            "Title": "改变网络",
+            "content": "选择存在钱包但更改网络"
+        },
+        "BtnImport": {
+            "Title": "进口",
+            "content": "从还原代码导入钱包，私钥......"
+        }
+    },
+    "SelectNetwork": {
+        "Title": "选择网络"
+    },
+    "NameWallet": {
+        "Title1": "名字钱包",
+        "Title2": "选择钱包",
+        "titleButton": "提交",
+        "AlertConfirm": {
+            "title": "确认",
+            "content": "输入您的本地密码",
+            "placeholderInput": "电子钱包本地密码",
+            "cancel": "取消",
+            "ok": "Ok",
+            "walletNameExist": "名称钱包已经存在",
+            "walletNameError": "名称钱包至少需要1个字符"
+        }
+    },
+    "ManageWallet": {
+        "Title": "管理钱包",
+        "AlertConfirm": {
+            "title": "确认删除钱包",
+            "content": "输入您的本地密码",
+            "placeholderInput": "电子钱包本地密码",
+            "cancel": "取消",
+            "ok": "Ok"
+        },
+        "AlertSuccess": {
+            "title": "成功",
+            "content": "删除钱包成功"
+        },
+        "AlertError": {
+            "title": "错误",
+            "content": "你需要至少1个钱包"
+        }
+    }
+}

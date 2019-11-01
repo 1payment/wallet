@@ -1,0 +1,105 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-wkwebview-reborn@file:../",
+        "scope": null,
+        "escapedName": "react-native-wkwebview-reborn",
+        "name": "react-native-wkwebview-reborn",
+        "rawSpec": "file:../",
+        "spec": "/Users/insraq/Projects/react-native-wkwebview",
+        "type": "directory"
+      },
+      "/Users/insraq/Projects/react-native-wkwebview/example"
+    ]
+  ],
+  "_from": "react-native-wkwebview-reborn@^1.21.0",
+  "_id": "react-native-wkwebview-reborn@1.21.0",
+  "_inBundle": false,
+  "_inCache": true,
+  "_integrity": "sha512-rOxkZTRc9CZSngPY+xRfzrSdXlUGU5NIF8Ckur46D1awIsK4RsvDSO07+wFLk9pZ8PwyD82+D7IM3pPbRORjjA==",
+  "_location": "/react-native-wkwebview-reborn",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-wkwebview-reborn@^1.21.0",
+    "name": "react-native-wkwebview-reborn",
+    "escapedName": "react-native-wkwebview-reborn",
+    "rawSpec": "^1.21.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.21.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-wkwebview-reborn/-/react-native-wkwebview-reborn-1.21.0.tgz",
+  "_shasum": "ae355cd6b0b8e8f979c42165187b43de95a2743c",
+  "_shrinkwrap": null,
+  "_spec": "react-native-wkwebview-reborn@^1.21.0",
+  "_where": "/Users/tranviet/Data/Source/Github/react-native/golden-wallet-react-native",
+  "author": {
+    "name": "Ruoyu Sun",
+    "email": "ruoysun@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/CRAlpha/react-native-wkwebview/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fbjs": "^0.8.3"
+  },
+  "deprecated": false,
+  "description": "React Native WKWebView for iOS",
+  "devDependencies": {},
+  "gitHead": "5c1809c67ca87e531727b51f751db0e71dfebf9b",
+  "homepage": "https://github.com/CRAlpha/react-native-wkwebview",
+  "keywords": [
+    "react",
+    "native",
+    "wkwebview",
+    "webview",
+    "ios"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-wkwebview-reborn",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "pre-push#master": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRAlpha/react-native-wkwebview.git"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js --ext .jsx .",
+    "sync-from-example": "cp ./example/node_modules/react-native-wkwebview-reborn/*.js ./;cp -r ./example/node_modules/react-native-wkwebview-reborn/ios ./",
+    "sync-to-example": "cp ./*.js ./example/node_modules/react-native-wkwebview-reborn/;cp -r ./ios ./example/node_modules/react-native-wkwebview-reborn/"
+  },
+  "version": "1.21.0",
+  "react-native": {
+    "crypto": "react-native-crypto",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "vm": "vm-browserify"
+  },
+  "browser": {
+    "crypto": "react-native-crypto",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "vm": "vm-browserify"
+  }
+}

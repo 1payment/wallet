@@ -1,0 +1,334 @@
+{
+    "Login": {
+        "Title": "로그인",
+        "PHAddress": "지갑주소",
+        "PHLocalPasscode": "월렛 로컬 패스 코드",
+        "TitleButton": "로그인",
+        "InvalidCredentials": "잘못된 자격 증명",
+        "InvalidLocalPasscode": "올바른 패스 코드를 입력하십시오",
+        "InvalidAddress": "올바른 주소를 입력하십시오",
+        "Error": {
+            "AccessTouchID": "설정에서 터치 ID에 액세스하십시오.",
+            "CreateWallet": "새 지갑을 등록하십시오."
+        }
+    },
+    "Register": {
+        "Title": "월렛 생성",
+        "TitleButton": "월렛 생성",
+        "PHWalletLocalPasscode": "월렛 로컬 패스 코드",
+        "PHConfirmLocalPasscode": "월렛 로컬 패스 코드 재입력",
+        "policy": "새 월렛을 만들면 이용약관에 동의하게됩니다.",
+        "ErrorLocalPasscode": "월렛 로컬 비밀번호는 6 자 이상이어야합니다.",
+        "ErrorNotMatch": "월렛 로컬 비밀번호가 일치하지 않습니다."
+    },
+    "Restore": {
+        "Title": "지갑 복원",
+        "BackUpCode": "백업 코드",
+        "Privatekey": "Private key",
+        "ChooserFile": "파일을 선택",
+        "LocalPasscode": "월렛 로컬 패스 코드",
+        "ComfirmLocalPasscode": "월렛 로컬 패스 코드 재입력",
+        "ErrorLocalPasscode": "월렛 로컬 비밀번호는 6 자 이상이어야합니다.",
+        "ErrorNotMatch": "월렛 로컬 비밀번호가 일치하지 않습니다.",
+        "TitleButton": "다음",
+        "Error": "오류",
+        "InvalidRestoreCode": "잘못된 복원 코드입니다. 다시 시도하십시오.",
+        "Ok": "OK",
+        "InvalidPK": "유효한 private key 를 입력하십시오.",
+        "Warning": "경고",
+        "ContentWarning": "올바른 백업 파일을 선택하십시오.",
+        "AlertInvalidPK": "I잘못된 private key, 다시 시도하십시오!"
+    },
+    "Dashboard": {
+        "Title": "게시판",
+        "Day": "일",
+        "Week": "주",
+        "Month": "월",
+        "All": "모두",
+        "YourBalance": "잔액",
+        "CheckBackup": "지갑이 아직 백업되지 않았습니다.",
+        "ButtonBackup": "백업",
+        "total_value": "총 가치",
+        "segment": {
+            "send": "보내다",
+            "receve": "받다"
+        }
+    },
+    "Send": {
+        "Title": "보내다",
+        "SendForm": {
+            "SelectToken": "토큰 선택",
+            "To": "에",
+            "TitleButton": "보내다"
+        },
+        "ConfirmSend": {
+            "Title": "보내기 재입력",
+            "Content": "진행을 하려면 로컬 패스 코드를 입력하십시오.",
+            "Placeholder": "월렛 로컬 패스 코드",
+            "TitleButtonCancel": "취소"
+        },
+        "AlerError": {
+            "Error": "오류",
+            "Content": "로컬 패스 코드가 잘못되었습니다.",
+            "NotEnoughNTY": "이 거래에 충분한 양가 없습니다.",
+            "NotEnoughToken": "이 거래에 충분한 토큰 없습니다.",
+            "TransactionFail": "거래 실패"
+        },
+        "SendSuccess": {
+            "Title": "성공적으로 보내기"
+        },
+        "Ok": "OK",
+        "ValidAmount": "유효한 금액을 입력하십시오.",
+        "ValidAddress": "잘못된 주소",
+        "Copy": "복사"
+    },
+    "Request": {
+        "Title": "요청",
+        "TitleCopy": "아래 이미지를 탭하여이 지갑 주소를 복사하거나 이메일 또는 텍스트를 통해 다른 사람과 공유하십시오.",
+        "Share": "공유",
+        "Toast": "클립 보드에 복사 됨"
+    },
+    "Unlogin": {
+        "Login": "로그인",
+        "CreateWallet": "월렛 생성",
+        "Restore": "지갑 복원",
+        "AutoLogin": "자동 로그인 ..."
+    },
+    "Drawer": {
+        "Redeem": "Redeem",
+        "Privatekey": "Private key",
+        "Addtoken": "토큰 추가",
+        "History": "기록",
+        "Settings": "설정",
+        "About": "Nexty에 대하여",
+        "Logout": "로그 아웃",
+        "Version": "번역"
+    },
+    "Redeem": {
+        "Title": "Redeem",
+        "OpenCam": "오픈 카메라...",
+        "InfoQR": {
+            "Title": "정보 QR 코드",
+            "Content": "QR 코드",
+            "TitleButton": "도로 사다"
+        },
+        "Congratulation": {
+            "Title": "축하",
+            "Content": "당신은 받았습니다",
+            "TitleButton": "OK"
+        },
+        "Error": {
+            "Title": "오류",
+            "Content": {
+                "Used": "죄송합니다.이 QR 코드가 사용되었습니다.",
+                "expired": "죄송합니다. QR 코드가 만료되었습니다.",
+                "NotFound": "QR 코드를 찾을 수 없음"
+            },
+            "TitleButton": "재검색"
+        }
+    },
+    "PrivateKey": {
+        "Title": "Private key",
+        "InitForm": {
+            "Content": "PRIVATE 키를 받으려면 아래 버튼을 클릭하십시오.",
+            "TitleButton": "다음"
+        },
+        "GetSuccess": {
+            "TitleButton": "PRIVATE 키 복사",
+            "TitleCopied": "복사 됨복사 됨"
+        },
+        "DialogConfirm": {
+            "Title": "PRIVATE 키 검색",
+            "Content": "진행을 하려면 로컬 패스 코드를 입력하십시오.",
+            "Placeholder": "월렛 로컬 패스 코드",
+            "TitleButtonGet": "받기",
+            "TitleButtonCancel": "취소"
+        },
+        "Aler": {
+            "Title": "PRIVATE 키 가져 오기 실패",
+            "Content": "로컬 패스 코드가 잘못되었습니다.",
+            "TitleButtonCancel": "취소",
+            "TitleButtonTry": "다시 시도하십시오."
+        },
+        "Toast": "클립 보드에 복사 됨"
+    },
+    "AddToken": {
+        "Title": "토큰 추가",
+        "FormAdd": {
+            "PlaceholderToken": "토큰 계약 주소 입력",
+            "PlaceholderSymbol": "토큰 심볼",
+            "TitleButton": "토큰 추가"
+        },
+        "AlerError": {
+            "Title": "오류",
+            "Content": "토큰 가 이미 존재 함",
+            "TitleButton": "OK"
+        },
+        "AlerSuccess": {
+            "Title": "성공적으로",
+            "Content": "토큰이 성공적으로 추가되었습니다",
+            "TitleButton": "OK"
+        },
+        "ValidToken": "토큰 주소가 잘못되었습니다."
+    },
+    "History": {
+        "Title": "기록",
+        "Loading": "기다려주십시오. ...",
+        "NoTransaction": "거래 내역 없음"
+    },
+    "DetailHistory": {
+        "Title": "상세 거래 내역",
+        "Txhash": "Txhash",
+        "From": "에서",
+        "To": "에",
+        "Amount": "수량",
+        "Date": "날짜",
+        "Status": "상태",
+        "TitleButton": "탐색"
+    },
+    "Settings": {
+        "Title": "설정",
+        "Backup": "백업",
+        "Languages": "언어",
+        "ChangePIN": "PIN 변경",
+        "TouchID": "터치 ID를 PIN으로 사용",
+        "Toast": "이 기능은 곧 제공 될 예정입니다.",
+        "EnableTouchID": "재입력",
+        "Success": "Touch ID를 사용하도록 설정했습니다."
+    },
+    "Backup": {
+        "Title": "백업",
+        "InitForm": {
+            "Content": "지갑을 백업하려면 아래 버튼을 클릭하십시오.",
+            "TitleButton": "백업"
+        },
+        "GetSuccess": {
+            "Title": "백업 코드",
+            "TitleButton": "백업 코드 복사",
+            "TitleCopied": "복사 됨복사 됨"
+        },
+        "DialogConfirm": {
+            "Title": "백업 재입력",
+            "Content": "진행을 하려면 로컬 패스 코드를 입력하십시오.",
+            "Placeholder": "월렛 로컬 패스 코드",
+            "TitleButtonGet": "백업",
+            "TitleButtonCancel": "취소"
+        },
+        "Alert": {
+            "Title": "백업 코드 가져오기 실패",
+            "TitleButtonCancel": "취소",
+            "TitleButtonTry": "다시 시도하십시오."
+        },
+        "ToastSaveFile": "파일 백업 저장이 완료되었습니다.",
+        "IOScancel": "저장 파일이 취소되었습니다.",
+        "Toast": "클립 보드에 복사 됨"
+    },
+    "Languages": {
+        "Title": "언어"
+    },
+    "About": {
+        "Title": "Nexty에 대하여",
+        "Content": "Nexty는 공동체의 모금을 통해 전자상거래 및 기술 스타트업에 도움을 주는 핀테크 에코시스템입니다."
+    },
+    "QRScan": {
+        "Title": "QR 스캔"
+    },
+    "ConfirmLogout": {
+        "Title": "재입력",
+        "Content": "로그 아웃 하시겠습니까?",
+        "ButtonAgree": "네",
+        "ButtonCancel": "아니요",
+        "exitapp": "정말 종료하시겠습니까?"
+    },
+    "ChangePIN": {
+        "Title": "지갑 로컬 패스 코드 변경",
+        "PlaceholderOld": "오래된 지갑 로컬 패스 코드",
+        "ValidOldPasscode": "잘못된 지갑 로컬 패스 코드",
+        "PlaceholderNewPasscode": "새 지갑 로컬 패스 코드",
+        "PlaceholderConfirmNew": "새 지갑 로컬 패스 코드 재입력",
+        "TitleButton": "Continue",
+        "Success": "암호를 성공적으로 변경하십시오",
+        "OldPasscodeCredentials": "잘못된 이전 로컬 패스 코드"
+    },
+    "TouchID": {
+        "Error": {
+            "Title": "터치 ID 오류",
+            "Content": "기기가 터치 ID를 지원하지 않습니다"
+        },
+        "Send": "터치 ID 권한으로 보내기",
+        "Login": "터치 ID로 로그인하기",
+        "Options": {
+            "sensorDescription": "터치 센서",
+            "sensorErrorDescription": "실패한",
+            "cancelText": "취소",
+            "reason": "처리 할 터치 ID 스캔"
+        }
+    },
+    "Token": {
+        "Title": "목록 토큰",
+        "AlertDelete": {
+            "Title": "재입력",
+            "Content": "삭제하다 하시겠습니까?",
+            "ButtonAgree": "동의하다",
+            "ButtonCancel": "동의하지 않는다"
+        },
+        "TitleButton": "삭제"
+    },
+    "AlertTouchID": {
+        "Title": "터치 ID",
+        "Content": "터치 ID 사용하여 월렛에 더 빠르고 쉽게 액세스하십시오",
+        "BtnCancel": "지금은 안돼.",
+        "BtnSetting": "터치 ID 사용"
+    },
+    "LOGIN_TITLE": "로그인",
+    "Add_new": {
+        "Title": "새 지갑 추가",
+        "BtnCreate": {
+            "Title": "만들기",
+            "content": "새 지갑 만들기"
+        },
+        "BtnChangeNetwork": {
+            "Title": "네트워크 변경",
+            "content": "존재하는지갑 선택한데  네트워크 변경"
+        },
+        "BtnImport": {
+            "Title": "가져오기",
+            "content": "개인 키, 복원 코드 등 에서 지갑 가져 오기."
+        }
+    },
+    "SelectNetwork": {
+        "Title": "네트워크 선택하기"
+    },
+    "NameWallet": {
+        "Title1": "지갑 이름",
+        "Title2": "지갑 선택",
+        "titleButton": "제출하기",
+        "AlertConfirm": {
+            "title": "확인",
+            "content": "로컬 패스 코드 입력하십시오.",
+            "placeholderInput": "로컬 패스 코드 지갑",
+            "cancel": "취소",
+            "ok": "Ok",
+            "walletNameExist": "이미 사용중인 이름지갑입니다.",
+            "walletNameError": "지갑이름이 최소한 한글자 이상 필요합니다."
+        }
+    },
+    "ManageWallet": {
+        "Title": "관리 지갑",
+        "AlertConfirm": {
+            "title": "지갑삭제 확인",
+            "content": "프로세스할 로컬 패스 코드 입력하십시오",
+            "placeholderInput": "지갑 로컬 패스 코드",
+            "cancel": "취소",
+            "ok": "Ok"
+        },
+        "AlertSuccess": {
+            "title": "성공",
+            "content": "지갑 삭제 성공"
+        },
+        "AlertError": {
+            "title": "오류",
+            "content": "최소 1 개의 지갑이 필요합니다."
+        }
+    }
+}

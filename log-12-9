@@ -1,0 +1,862 @@
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.1.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-udp
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.1.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-vector-icons
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Task :app:compileDebugJavaWithJavac FAILED
+/Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/android/app/src/main/java/com/nextywallet/MainApplication.java:7: error: package com.toast does not exist
+import com.toast.RCTToastPackage;
+                ^
+/Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/android/app/src/main/java/com/nextywallet/MainApplication.java:35: error:cannot find symbol
+            new RCTToastPackage(),
+                ^
+  symbol: class RCTToastPackage
+2 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s
+130 actionable tasks: 1 executed, 129 up-to-date
+Could not install the app on the device, read the error above for details.
+Make sure you have an Android emulator running or a device connected and have
+set up your Android development environment:
+https://facebook.github.io/react-native/docs/getting-started.html
+FredoTech:NextyWallet thonguyen$ react-native run-android
+Scanning folders for symlinks in /Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/node_modules (16ms)
+JS server already running.
+Building and installing the app on the device (cd android && ./gradlew installDebug)...
+
+> Configure project :app
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :react-native-camera
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+> Configure project :react-native-fs
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :react-native-os
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.1.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-randombytes
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :react-native-tcp
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.1.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-udp
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.1.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-vector-icons
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Task :app:compileDebugJavaWithJavac FAILED
+/Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/android/app/src/main/java/com/nextywallet/MainApplication.java:7: error: package com.toast does not exist
+import com.toast.RCTToastPackage;
+                ^
+/Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/android/app/src/main/java/com/nextywallet/MainApplication.java:35: error:cannot find symbol
+            new RCTToastPackage(),
+                ^
+  symbol: class RCTToastPackage
+2 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s
+130 actionable tasks: 1 executed, 129 up-to-date
+Could not install the app on the device, read the error above for details.
+Make sure you have an Android emulator running or a device connected and have
+set up your Android development environment:
+https://facebook.github.io/react-native/docs/getting-started.html
+FredoTech:NextyWallet thonguyen$ react-native run-android
+Scanning folders for symlinks in /Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/node_modules (18ms)
+JS server already running.
+Building and installing the app on the device (cd android && ./gradlew installDebug)...
+
+> Configure project :app
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :react-native-camera
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+> Configure project :react-native-fs
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :react-native-os
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.1.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-randombytes
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :react-native-tcp
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.1.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-udp
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.1.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-vector-icons
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not determine the dependencies of task ':app:preDebugBuild'.
+> Could not resolve all task dependencies for configuration ':app:debugRuntimeClasspath'.
+   > Could not resolve project :react-native-toast-native.
+     Required by:
+         project :app
+      > Unable to find a matching configuration of project :react-native-toast-native: None of the consumable configurations have attributes.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s
+Could not install the app on the device, read the error above for details.
+Make sure you have an Android emulator running or a device connected and have
+set up your Android development environment:
+https://facebook.github.io/react-native/docs/getting-started.html
+FredoTech:NextyWallet thonguyen$ react-native run-android
+Scanning folders for symlinks in /Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/node_modules (18ms)
+JS server already running.
+Building and installing the app on the device (cd android && ./gradlew installDebug)...
+
+> Configure project :app
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :react-native-camera
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+> Configure project :react-native-fs
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :react-native-os
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.1.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-randombytes
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :react-native-tcp
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.1.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-udp
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.1.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-vector-icons
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Task :app:compileDebugJavaWithJavac FAILED
+/Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/android/app/src/main/java/com/nextywallet/MainApplication.java:7: error: package com.toast does not exist
+import com.toast.RCTToastPackage;
+                ^
+/Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/android/app/src/main/java/com/nextywallet/MainApplication.java:35: error:cannot find symbol
+            new RCTToastPackage(),
+                ^
+  symbol: class RCTToastPackage
+2 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s
+130 actionable tasks: 1 executed, 129 up-to-date
+Could not install the app on the device, read the error above for details.
+Make sure you have an Android emulator running or a device connected and have
+set up your Android development environment:
+https://facebook.github.io/react-native/docs/getting-started.html
+FredoTech:NextyWallet thonguyen$ react-native run-android
+Scanning folders for symlinks in /Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/node_modules (16ms)
+JS server already running.
+Building and installing the app on the device (cd android && ./gradlew installDebug)...
+
+> Configure project :app
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :react-native-camera
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+> Configure project :react-native-fs
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :react-native-os
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.1.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-randombytes
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :react-native-tcp
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.1.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-udp
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.1.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-vector-icons
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Task :app:compileDebugJavaWithJavac FAILED
+/Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/android/app/src/main/java/com/nextywallet/MainApplication.java:7: error: package com.toast does not exist
+import com.toast.RCTToastPackage;
+                ^
+/Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/android/app/src/main/java/com/nextywallet/MainApplication.java:35: error:cannot find symbol
+            new RCTToastPackage(),
+                ^
+  symbol: class RCTToastPackage
+2 errors
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s
+130 actionable tasks: 1 executed, 129 up-to-date
+Could not install the app on the device, read the error above for details.
+Make sure you have an Android emulator running or a device connected and have
+set up your Android development environment:
+https://facebook.github.io/react-native/docs/getting-started.html
+FredoTech:NextyWallet thonguyen$ react-native run-android
+Scanning folders for symlinks in /Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/node_modules (17ms)
+JS server already running.
+Building and installing the app on the device (cd android && ./gradlew installDebug)...
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 5.087 secs
+Could not install the app on the device, read the error above for details.
+Make sure you have an Android emulator running or a device connected and have
+set up your Android development environment:
+https://facebook.github.io/react-native/docs/getting-started.html
+FredoTech:NextyWallet thonguyen$ react-native run-android
+Scanning folders for symlinks in /Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/node_modules (26ms)
+JS server already running.
+Building and installing the app on the device (cd android && ./gradlew installDebug)...
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> Could not resolve all dependencies for configuration ':app:_debugApk'.
+   > A problem occurred configuring project ':react-native-udp'.
+      > The SDK Build Tools revision (23.0.1) is too low for project ':react-native-udp'. Minimum required is 25.0.0
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 8.796 secs
+Could not install the app on the device, read the error above for details.
+Make sure you have an Android emulator running or a device connected and have
+set up your Android development environment:
+https://facebook.github.io/react-native/docs/getting-started.html
+FredoTech:NextyWallet thonguyen$ react-native run-android
+Scanning folders for symlinks in /Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/node_modules (16ms)
+JS server already running.
+Building and installing the app on the device (cd android && ./gradlew installDebug)...
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/node_modules/react-native-camera/android/build.gradle' line: 8
+
+* What went wrong:
+A problem occurred evaluating project ':react-native-camera'.
+> Could not find method google() for arguments [] on repository container of type org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 1 mins 4.828 secs
+Could not install the app on the device, read the error above for details.
+Make sure you have an Android emulator running or a device connected and have
+set up your Android development environment:
+https://facebook.github.io/react-native/docs/getting-started.html
+FredoTech:NextyWallet thonguyen$ react-native run-android
+Scanning folders for symlinks in /Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/node_modules (16ms)
+JS server already running.
+Building and installing the app on the device (cd android && ./gradlew installDebug)...
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet/node_modules/react-native-camera/android/build.gradle' line: 8
+
+* What went wrong:
+A problem occurred evaluating project ':react-native-camera'.
+> Could not find method google() for arguments [] on repository container of type org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 1.305 secs
+Could not install the app on the device, read the error above for details.
+Make sure you have an Android emulator running or a device connected and have
+set up your Android development environment:
+https://facebook.github.io/react-native/docs/getting-started.html
+FredoTech:NextyWallet thonguyen$
+FredoTech:NextyWallet thonguyen$
+FredoTech:NextyWallet thonguyen$
+FredoTech:NextyWallet thonguyen$ pưd
+bash: pưd: command not found
+FredoTech:NextyWallet thonguyen$ pwd
+/Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet
+FredoTech:NextyWallet thonguyen$ cd android/
+FredoTech:android thonguyen$ ./gradlew clean
+
+> Configure project :app
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations
+.html
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-camera
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0
+.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-fs
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations
+.html
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-os
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-randombytes
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations
+.html
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-tcp
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations
+.html
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-udp
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-vector-icons
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations
+.html
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+
+BUILD SUCCESSFUL in 16s
+8 actionable tasks: 7 executed, 1 up-to-date
+FredoTech:android thonguyen$ cd ..
+FredoTech:NextyWallet thonguyen$ cd android/
+FredoTech:android thonguyen$ ./gradlew clean
+
+> Configure project :app
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/And
+roid/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-camera
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-fs
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-os
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-randombytes
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-tcp
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-udp
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :react-native-vector-icons
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/thonguyen/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (25.0.0) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.3.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+
+BUILD SUCCESSFUL in 1s
+8 actionable tasks: 8 executed
+FredoTech:android thonguyen$ cd ..
+FredoTech:NextyWallet thonguyen$ pwd
+/Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet
+FredoTech:NextyWallet thonguyen$ node fixAndroid.js
+####################################
+# Upgrade All Android build.gradle #
+####################################
+
+Processed file: ./node_modules/react-native/ReactAndroid/build.gradle
+Processed file: ./node_modules/react-native-camera/android/build.gradle
+Processed file: ./node_modules/react-native-fs/android/build.gradle
+Processed file: ./node_modules/react-native-os/android/build.gradle
+Processed file: ./node_modules/react-native-randombytes/android/build.gradle
+Processed file: ./node_modules/react-native-tcp/android/build.gradle
+Processed file: ./node_modules/react-native-udp/android/build.gradle
+Processed file: ./node_modules/react-native-vector-icons/android/build.gradle
+FredoTech:NextyWallet thonguyen$ pwd
+/Users/thonguyen/Downloads/REACT-NATIVE/NextyWallet
+FredoTech:NextyWallet thonguyen$ adb reverse tcp:8081 tcp:8081
+FredoTech:NextyWallet thonguyen$
